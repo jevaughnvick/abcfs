@@ -1,9 +1,44 @@
 export default function App(){
 
-
     return (
         <>
-        <p className="text-green-500">I'm back</p>
+        <table className="w-full">
+            <thead className="text-2xl">
+                <tr>
+                    <td>
+                        Boy
+                    </td>
+                    <td>
+                        Girl
+                    </td>
+                    <td>
+                        Animal
+                    </td>
+                    <td>
+                        Place
+                    </td>
+                    <td>
+                        Food
+                    </td>
+                    <td>
+                        Thing
+                    </td>
+                    <td>
+                        TV/ Film
+                    </td>
+                    <td>
+                        Total
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                {/* <tr>
+                    <td>
+                        s
+                    </td>
+                </tr> */}
+            </tbody>
+        </table>
         </>
     )
 }
