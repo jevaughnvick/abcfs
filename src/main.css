@@ -25,23 +25,37 @@ body{
 }
 
 thead td{
-    padding: 10px;
+    padding: 20px 0px;
+}
+
+tbody td{
+    padding: 15px 0px;
 }
 
 tr{
     display: flex;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(156, 156, 156);
 }
 
 td{
-    border-right: black 1px solid;
+    border-right: rgb(156, 156, 156) 1px solid;
     flex: 1;
     text-align: center;
 }
 
+input{
+    border-bottom: 1px solid gray;
+    max-width: 100px;
+    outline: none;
+}
+
 td:last-child{
     flex: 1 1 6%;
-    border: none;
+    font-weight: bold;
+}
+
+tbody td:last-child{
+    /* color: white; */
 }
 
 input, button, textarea, select{

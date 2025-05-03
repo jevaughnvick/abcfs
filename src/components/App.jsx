@@ -3,7 +3,7 @@ export default function App(){
     return (
         <>
         <table className="w-full">
-            <thead className="text-2xl">
+            <thead className="text-3xl">
                 <tr>
                     <td>
                         Boy
@@ -32,11 +32,32 @@ export default function App(){
                 </tr>
             </thead>
             <tbody>
-                {/* <tr>
+                <tr>
                     <td>
-                        s
+                        
                     </td>
-                </tr> */}
+                    <td>
+                        
+                    </td>
+                    <td>
+                        
+                    </td>
+                    <td>
+                        
+                    </td>
+                    <td>
+                        
+                    </td>
+                    <td>
+                        
+                    </td>
+                    <td>
+                        
+                    </td>
+                    <td>
+                        
+                    </td>
+                </tr>
             </tbody>
         </table>
         </>
