@@ -1,5 +1,15 @@
 @import "tailwindcss";
 
+@font-face{
+    font-family: 'Bubble';
+    src: url('../public/GameBubleDEMO.otf') format('opentype');
+}
+
+@font-face{
+    font-family: 'Game';
+    src: url('../public/dropthegame.ttf') format('truetype');
+}
+
 :root{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -22,6 +32,17 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center; */
+    /* border: 1px solid yellow; */
+}
+
+main{
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+#home{
+    height: 100%;
+    background: linear-gradient(to top left, rgb(104, 202, 104), rgb(69, 248, 69), white);
 }
 
 thead td{
@@ -60,6 +81,16 @@ tbody td:last-child{
 
 input, button, textarea, select{
     font: inherit;
+}
+
+#home button{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#home > div > div > div{
+    display: flex;
+    justify-content: center;
 }
 
 img, picture, video, canvas, svg{
