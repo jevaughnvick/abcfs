@@ -2,12 +2,12 @@
 
 @font-face{
     font-family: 'Bubble';
-    src: url('../public/GameBubleDEMO.otf') format('opentype');
+    src: url('/GameBubleDEMO.otf') format('opentype');
 }
 
 @font-face{
     font-family: 'Game';
-    src: url('../public/dropthegame.ttf') format('truetype');
+    src: url('/dropthegame.ttf') format('truetype');
 }
 
 :root{
@@ -38,11 +38,12 @@ body{
 main{
     height: 100%;
     /* border: 1px solid red; */
+    /* background-color: black; */
 }
 
 #home{
     height: 100%;
-    background: linear-gradient(to top left, rgb(104, 202, 104), rgb(69, 248, 69), white);
+    background: url("/words.PNG") no-repeat right, linear-gradient(to top left, rgb(38, 179, 38), rgb(92, 250, 92), white);
 }
 
 thead td{
@@ -86,6 +87,10 @@ input, button, textarea, select{
 #home button{
     font-weight: bold;
     cursor: pointer;
+}
+
+#home button:hover{
+    scale: 1.1;
 }
 
 #home > div > div > div{
