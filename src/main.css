@@ -46,6 +46,50 @@ main{
     background: url("/words.PNG") no-repeat right, linear-gradient(to top left, rgb(38, 179, 38), rgb(92, 250, 92), white);
 }
 
+#letters{
+    /* border: 1px solid red; */
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.bottom{
+    display: flex;
+    position: relative;
+    height: min-content;
+}
+
+.top{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* border: 1px solid red; */
+    color: black;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+.bottom div{
+    flex: 1;
+    font-size: 16rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+}
+
+.top div{
+    flex: 1;
+    /* border: 1px solid red; */
+    font-size: 25rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+}
+
 thead td{
     padding: 20px 0px;
 }
